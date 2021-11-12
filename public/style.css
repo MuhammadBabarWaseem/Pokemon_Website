@@ -1,0 +1,607 @@
+
+*{
+    overflow-x: hidden;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #e8e8e8;
+    height: 70px;
+    position: relative;
+    top: -15px;
+   
+  }
+
+                /* ***********************1st-NAV************************/
+         
+
+  #pokemon{
+    background-color: white;
+    height: 65px;
+    }
+
+#Pikachu{
+    
+    height: 65px;
+    }
+
+#Pikachu:hover
+    {
+        transform: scale(1.1);
+    }
+#card{
+   
+    height: 65px;
+
+}
+
+#card:hover
+    {
+        transform: scale(1.1);
+    }
+
+#pikabg{
+   
+    height: 65px;
+   
+}
+
+#pikabg:hover
+    {
+        transform: scale(1.1);
+    }
+
+#celebrate{
+    
+    height: 65px;
+   
+
+}
+
+#celebrate:hover
+    {
+        transform: scale(1.1);
+    }
+
+#unite{
+    height: 65px;
+   
+}
+
+#unite:hover
+    {
+      
+      transform: scale(1.1);
+    }
+
+
+
+                /* ***********************2nd-NAV************************/
+
+
+
+div ul{
+
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.pikachuText {
+    text-align: center;
+    bottom: 12px;
+    color: white;
+}
+
+.homeLi {
+    font-family: 'Times New Roman';
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.pokédexLi {
+    
+    font-family: 'Times New Roman';
+    padding-left: 35px;   
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.pokédexLi:hover{
+    background-color: red;
+    color: white;
+    
+
+}
+
+.ball-div {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.ball-div:hover{
+    transform: scale(1.1);
+}
+
+.videoLi {
+    font-family: 'Times New Roman';
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.videoLi:hover{
+    background-color: orangered;
+    color: white;
+    }
+
+.plus {
+    margin-right: 10px;
+   
+}
+
+.plus:hover{
+    transform: scale(1.1);
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.cardGame {
+    font-family: 'Times New Roman';
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.cardGame:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.card {
+    margin-left: 32px;
+    margin-bottom: 5px;
+}
+
+
+
+.pokemon-tv {
+    font-family: 'Times New Roman';
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 0px;
+}  
+
+.pokemon-tv:hover{
+    background-color: green;
+    color: white;
+}
+
+.tv {
+    margin-left: 22px;
+}
+
+.tv:hover{
+    transform: scale(1.1);
+
+}
+
+.pokemon-event {
+    font-family: 'Times New Roman';
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 23px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.pokemon-event:hover{
+    background-color:royalblue;
+    color: white;
+}
+
+.trophy {
+    margin-left: 32px;
+}
+
+.trophy:hover{
+    transform: scale(1.1);
+
+}
+
+.news {
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    display: inline-block;
+    border: 0px solid silver;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 21px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.news:hover{
+    background-color: blue;
+    color: white;
+
+}
+.newsIcon:hover{
+    transform: scale(1.1);
+    
+}
+
+  /* ***********************Card-Work************************/
+
+.bg{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    background-image: url(./container_bg.png);
+    
+}
+
+.purpleCard {
+    
+    
+    position: relative;
+    margin-left: 180px;
+    width: 579px;
+    height: 500px;
+    background-color: #313131;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+.purpleCard:hover{
+    transform: scale(0.99);
+    background-color: darkslategrey;
+}
+
+.purpleCardImg {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.purpleCardTxt {
+    
+    
+    color: white;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    
+}
+
+
+ .yellowCard {
+    
+    margin-left: 40px;
+    width: 289.5px;
+    height: 270px;
+    background-color: orangered;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.yellowCard:hover{
+    
+    transform: scale(0.99);
+    background-color: red;
+    
+}
+
+.yellowCardImg {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.yellowCardTxt {
+    
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: -15px;
+   }   
+
+
+.horseCard {
+    margin-left: -290px;
+    width: 300px;
+    margin-top: 270px;
+    height: 255px;
+    cursor: pointer;
+    background-color: #6E260E;
+    border-radius: 7px;
+    }
+
+.horseCard:hover{
+    background-color:#4A0404;
+    transform: scale(0.99);
+}
+
+.horseCardImg {
+     border-radius: 7px 7px 0px 0px;
+     width: 300px;
+     height: 170px;
+    
+    }
+
+.horseCardTxt {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: -15px;
+    }
+
+    #beforechar{
+        display: flex;
+        width: 250px;
+        margin-left: 310px;
+    }
+
+  /* ***********************Characters-Card************************/
+
+
+    .characters{
+        
+        background-image: url(./container_bg.png);
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    
+    .char1{
+
+        /* border-color: black; */
+        
+        border: 2px solid black;
+        background-repeat: no-repeat;
+        background-color: #313131;
+        opacity: 0.7;
+        cursor: pointer;
+        }
+
+    .char1txt{
+        color: white;
+        background-color: black;
+
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+    
+    .char2{
+        background-color: #313131;
+        cursor: pointer;
+        border: 2px solid black;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+}
+
+    .char2txt{
+        color: white;
+        background-color: black;
+         font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+    
+    .char3{
+        cursor: pointer;
+        /* height: 10px; */
+        border: 2px solid black;
+        background-color: #313131;
+       background-repeat: no-repeat;
+}
+
+    .char3txt{
+        color: white;
+        background-color: black;
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+
+    #btn1{
+        cursor: pointer;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5rem;
+        background-color: #52595D;
+    }
+
+    
+    #btn2{
+        background-color: #F73718;
+        cursor: pointer;
+        font-style: italic;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+
+    }
+    
+    .char4{
+        cursor: pointer;
+        border: 2px solid black;
+        background-color: #313131;
+       background-repeat: no-repeat;
+       opacity: 0.7;
+
+    }
+
+    .char4txt{
+        color: white;
+        background-color: black;
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+    
+    .char5{
+        cursor: pointer;
+        border: 2px solid black;
+        background-color: #313131;
+       background-repeat: no-repeat;
+       opacity: 0.7;
+    }
+
+    .char5txt{
+        background-color: black;
+        color: white;
+        font-size: 1.9rem;
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+
+    .afterchar{
+        /* background-image: url(./container_bg.png); */
+        display: flex;
+        
+        
+    }
+
+    #btn3{
+        
+        color: white;
+        height: 40px;
+       border-radius: 6px;
+        margin-left: 820px;
+        background-color: black;
+        cursor: pointer;
+        font-style: italic;
+        font-size: 1.5rem;
+        font-weight: bold;
+     }
+
+     .lastImg{
+        background-image: url(./container_bg.png);
+        display: flex;
+     }
+
+     .lastImg:hover{
+
+     transform: scale(0.99);
+
+     }
+
+     #LC{
+         
+        position: relative;
+        margin-top: 50px;
+        margin-left: 250px;
+        width: 700px;
+         }
+
+    .head{
+        display: flex;
+        background-color: #1f1f1f;
+        height: 300px;
+        
+    }
+
+.lists{
+
+    display: flex;
+    margin-top: 60px;
+    margin-left: -285px;
+    position: relative;
+}
+
+    #heading{
+        margin-left: 100px;
+        margin-bottom: 20px;
+        color: white;
+        text-shadow: black;
+        font-style: italic;
+        font-family: Verdana,;
+    }
+
+
+    ol li{
+
+        cursor: pointer;
+        margin-right: 200px;
+        color: white;
+        margin-bottom: 10px;
+        opacity: 0.4;
+        /* font-size: 0.9rem; */
+    }
+
+    ol li:hover{
+        opacity: 1;
+    }
+
+    .vl {
+        display: flex;
+        margin-left: -90px;
+        border-left: 3px solid black;
+        height: 300px;
+        
+      }
+
+.logo{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+   
+}
+
+
+
+.vl1 {
+    display: flex;
+    margin-left: 70px;
+    border-left: 3px solid black;
+    height: 270px;
+  }
+
+#the{
+    margin-left: -170px;
+    margin-top: 80px;
+}
+
+.last{
+    font-size: 1.1rem;
+    text-decoration: underline;
+
+    margin-top: 80px;
+    color: white;
+    opacity: 0.4;
+}
+
+
+#txt{
+    opacity: 0.4;
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 230px;
+    margin-left: 30px;
+    /* margin-top: 150px; */
+    /* margin-right: 190px; */
+}
